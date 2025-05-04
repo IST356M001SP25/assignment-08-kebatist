@@ -6,7 +6,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 st.set_page_config(layout="wide")
 
-
+# Load the dataset
+# Note: Ensure that the CSV file is in the correct path as per your project structure
+# and that it contains the necessary columns.
+# You may need to adjust the path based on your project structure.
 df = pd.read_csv('./cache/tickets_in_top_locations.csv')
 
 
